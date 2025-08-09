@@ -18,7 +18,7 @@ const Footer = () => {
               </p>
             </div>
             
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a 
                 href="https://facebook.com/squareacademy" 
                 target="_blank" 
@@ -43,7 +43,7 @@ const Footer = () => {
               >
                 <span className="text-xl">💼</span>
               </a>
-            </div>
+            </div> */}
           </div>
           
           {/* Quick Links */}
@@ -53,9 +53,9 @@ const Footer = () => {
               <a href="#courses" className="block text-gray-300 hover:text-white transition-colors duration-300">
                 Our Courses
               </a>
-              <a href="#demo-booking" className="block text-gray-300 hover:text-white transition-colors duration-300">
+              {/* <a href="#demo-booking" className="block text-gray-300 hover:text-white transition-colors duration-300">
                 Book Demo
-              </a>
+              </a> */}
               <a href="#contact" className="block text-gray-300 hover:text-white transition-colors duration-300">
                 Contact Us
               </a>
@@ -74,11 +74,12 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-start space-x-3">
                 <span className="text-blue-400 mt-1">📍</span>
-                <span className="text-sm">123 Education Street, Knowledge Park, Delhi - 110001</span>
+                <span className="text-sm">B9/227, SQUARE ACADEMY, Kalyani, Nadia, 741235, West Bengal, India</span>
+    
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-green-400">📞</span>
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 62904 04431</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-orange-400">✉️</span>
@@ -89,7 +90,7 @@ const Footer = () => {
         </div>
         
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        {/* <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <div className="mb-4 md:mb-0">
               <p>&copy; 2024 Square Academy. All rights reserved.</p>
@@ -100,7 +101,7 @@ const Footer = () => {
               <a href="#" className="hover:text-white transition-colors duration-300">Refund Policy</a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
